@@ -34,12 +34,10 @@ async def check_website(url):
         return False
 
 async def main():
-    while True:
         for url in URLS:
             found = await check_website(url)
             if found:
-                return  # Stop if found
-        await asyncio.sleep(300)  # Wait 5 minutes before checking again
+                return  
 
 if __name__ == "__main__":
     asyncio.run(main())
