@@ -14,7 +14,7 @@ URLS = [
 ]
 
 # Keyword to search for
-KEYWORD = "Sundara Travels"
+KEYWORD = "Coolie"
 
 bot = Bot(token=BOT_TOKEN)
 
